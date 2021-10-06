@@ -248,6 +248,7 @@ function printAnswerMessage(items){
         myTable += "<tr>";
         myTable += "<td>ID</td>";
         myTable += "<td>MESSAGE TEXT</td>";
+        myTable += "<td>ACTIONS</td>";
         myTable += "</tr>";
 
     for(i = 0; i < items.length;i++){
